@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #1b1b1b;
+    color: #e8e8e8;
+}
+.page{
+    min-width: 1000px;
+    padding: 40px 20px 60px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    padding: 40px;
+    border-radius: 20px;
+    background: #ef6b6b;
+}
+.paragraph{
+    color: #3def65;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+h1{
+    margin: 20px 0;
+    font-size: 40px;
+}
+.space{
+    margin-bottom: 0;
+    color: #3def65;
+}
+.toolbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 25px 0 18px;
+}
+.filter{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.filter-btn{
+    padding: 10px 15px;
+    border: 1px solid #3def65;
+    border-radius: 10px;
+    background: #fbfbfb;
+    cursor: pointer;
+}
+.filter-btn:hover{
+    background: #ef6b6b;
+}
+.filter-btn:active{
+    background: #823b3b;
+    color: #fff;
+    border-color: #1f8035;
+}
+.news-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.news-card{
+    flex: 1 1 300px;
+    padding: 20px;
+    background: #b65e5e;
+    border: 1px solid #08220c;
+    border-radius: 10px;
+}
+.news-card h2{
+    margin: 15px 0 15px;
+    font-size: 25px;
+}
+.news-card p{
+    color: orangered;
+}
+.news-card small{
+    color: #22201b;
+}
+.tag{
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background: #434a9a;
+    color: #a1b85d;
+    font-size: 12px;
+    font-weight: bold;
+}
